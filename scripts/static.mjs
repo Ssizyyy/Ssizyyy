@@ -35,7 +35,7 @@ function hero(t) {
   const chip = (y, h) => glassCard(t, 620, y, 220, h, 14);
   const body = `<g clip-path="url(#c)"><rect width="${W}" height="250" fill="${t.glass}"/><rect width="${W}" height="250" fill="url(#gl)"/><rect width="${W}" height="250" fill="url(#cl)"/></g>
 <rect x=".5" y=".5" width="${W - 1}" height="249" rx="20" fill="none" stroke="${t.line}"/>
-<g class="dr"><circle cx="96" cy="125" r="74" fill="url(#hl)"/>
+<g class="dr"><circle cx="96" cy="125" r="66" fill="url(#hl)"/>
 <rect x="40" y="69" width="112" height="112" rx="28" fill="${t === THEMES.dark ? "#161b22" : "#f6f8fa"}"/>
 <rect x="40.5" y="69.5" width="111" height="111" rx="28" fill="url(#tile)" stroke="${t.amber}" stroke-opacity=".45"/>
 <g transform="translate(66 99)"><svg width="60" height="60" viewBox="0 0 64 64" fill="none"><path d="M44 18c-3-4-8-6-13-6-8 0-13 4-13 10 0 14 28 6 28 21 0 6-6 11-15 11-6 0-12-2-16-7" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/></svg></g></g>

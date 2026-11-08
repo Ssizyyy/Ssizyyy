@@ -8,7 +8,7 @@
 <clipPath id="c"><rect width="880" height="250" rx="20"/></clipPath></defs>
 <g clip-path="url(#c)"><rect width="880" height="250" fill="rgba(255,255,255,.045)"/><rect width="880" height="250" fill="url(#gl)"/><rect width="880" height="250" fill="url(#cl)"/></g>
 <rect x=".5" y=".5" width="879" height="249" rx="20" fill="none" stroke="rgba(255,255,255,.09)"/>
-<g class="dr"><circle cx="96" cy="125" r="74" fill="url(#hl)"/>
+<g class="dr"><circle cx="96" cy="125" r="66" fill="url(#hl)"/>
 <rect x="40" y="69" width="112" height="112" rx="28" fill="#161b22"/>
 <rect x="40.5" y="69.5" width="111" height="111" rx="28" fill="url(#tile)" stroke="#f5a524" stroke-opacity=".45"/>
 <g transform="translate(66 99)"><svg width="60" height="60" viewBox="0 0 64 64" fill="none"><path d="M44 18c-3-4-8-6-13-6-8 0-13 4-13 10 0 14 28 6 28 21 0 6-6 11-15 11-6 0-12-2-16-7" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/></svg></g></g>
