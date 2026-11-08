@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img">
+<style>text{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}.m{font-family:ui-monospace,'Cascadia Mono',SFMono-Regular,Consolas,'Liberation Mono',monospace}@keyframes d{from{transform:translateY(0)}to{transform:translateY(-6px)}}.dr{animation:d 9s ease-in-out infinite alternate}@media (prefers-reduced-motion:reduce){.dr{animation:none}}</style>
+<defs><linearGradient id="g" x1="14" y1="8" x2="50" y2="58" gradientUnits="userSpaceOnUse"><stop stop-color="#ffcf6b"/><stop offset="1" stop-color="#f5a524"/></linearGradient>
+<linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="rgba(255,255,255,.075)"/><stop offset="1" stop-color="rgba(255,255,255,.045)"/></linearGradient>
+<radialGradient id="gl" cx="82%" cy="-4%" r="55%"><stop stop-color="rgba(245,165,36,.22)"/><stop offset="1" stop-color="rgba(245,165,36,.22)" stop-opacity="0"/></radialGradient>
+<radialGradient id="cl" cx="6%" cy="115%" r="45%"><stop stop-color="rgba(120,140,255,.10)"/><stop offset="1" stop-color="rgba(120,140,255,.10)" stop-opacity="0"/></radialGradient>
+<clipPath id="c"><rect width="880" height="250" rx="20"/></clipPath></defs>
+<g clip-path="url(#c)"><rect width="880" height="250" fill="rgba(255,255,255,.045)"/><rect width="880" height="250" fill="url(#gl)"/><rect width="880" height="250" fill="url(#cl)"/></g>
+<rect x=".5" y=".5" width="879" height="249" rx="20" fill="none" stroke="rgba(255,255,255,.09)"/>
+<g class="dr"><rect x="34" y="63" width="124" height="124" rx="34" fill="rgba(245,165,36,.22)" opacity=".35"/>
+<rect x="40.5" y="69.5" width="111" height="111" rx="28" fill="url(#tile)" stroke="rgba(255,255,255,.09)"/>
+<g transform="translate(66 99)"><svg width="60" height="60" viewBox="0 0 64 64" fill="none"><path d="M44 18c-3-4-8-6-13-6-8 0-13 4-13 10 0 14 28 6 28 21 0 6-6 11-15 11-6 0-12-2-16-7" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/></svg></g></g>
+<text x="184" y="103" font-size="52" font-weight="700" letter-spacing="-1.5" fill="#e6edf3">Hossein Salehi</text>
+<text class="m" x="186" y="130" font-size="15" fill="#9198a1">@Ssizy</text>
+<text x="185" y="164" font-size="18" fill="#e6edf3">I turn rough ideas into shipped products:</text>
+<text x="185" y="187" font-size="18" fill="#e6edf3">sites, desktop tools and everything between.</text>
+<text class="m" x="185" y="219" font-size="13" fill="#9198a1">Front-end &amp; full-stack · Astro · React · TypeScript</text>
+<rect x="620.5" y="62.5" width="219" height="49" rx="14" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.09)"/><circle cx="642" cy="87" r="4" fill="#f5a524"/><text x="658" y="92" font-size="14" fill="#e6edf3">Open for freelance work</text>
+<rect x="620.5" y="124.5" width="219" height="61" rx="14" fill="rgba(255,255,255,.045)" stroke="rgba(255,255,255,.09)"/><text x="642" y="150" font-size="14" fill="#e6edf3">Working hours</text><text class="m" x="642" y="171" font-size="12" fill="#9198a1">UTC+3:30</text>
+</svg>
