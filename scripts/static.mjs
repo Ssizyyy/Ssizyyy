@@ -30,12 +30,14 @@ function hero(t) {
 <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop stop-color="${t.glass2}"/><stop offset="1" stop-color="${t.glass}"/></linearGradient>
 <radialGradient id="gl" cx="82%" cy="-4%" r="55%"><stop stop-color="${t.glow}"/><stop offset="1" stop-color="${t.glow}" stop-opacity="0"/></radialGradient>
 <radialGradient id="cl" cx="6%" cy="115%" r="45%"><stop stop-color="${t.cool}"/><stop offset="1" stop-color="${t.cool}" stop-opacity="0"/></radialGradient>
+<filter id="bl" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="16"/></filter>
 <clipPath id="c"><rect width="${W}" height="250" rx="20"/></clipPath>`;
   const chip = (y, h) => glassCard(t, 620, y, 220, h, 14);
   const body = `<g clip-path="url(#c)"><rect width="${W}" height="250" fill="${t.glass}"/><rect width="${W}" height="250" fill="url(#gl)"/><rect width="${W}" height="250" fill="url(#cl)"/></g>
 <rect x=".5" y=".5" width="${W - 1}" height="249" rx="20" fill="none" stroke="${t.line}"/>
-<g class="dr"><rect x="34" y="63" width="124" height="124" rx="34" fill="${t.glow}" opacity=".35"/>
-<rect x="40.5" y="69.5" width="111" height="111" rx="28" fill="url(#tile)" stroke="${t.line}"/>
+<g class="dr"><rect x="40" y="69" width="112" height="112" rx="28" fill="${t.amber}" opacity="${t === THEMES.dark ? .55 : .4}" filter="url(#bl)"/>
+<rect x="40" y="69" width="112" height="112" rx="28" fill="${t === THEMES.dark ? "#161b22" : "#f6f8fa"}"/>
+<rect x="40.5" y="69.5" width="111" height="111" rx="28" fill="url(#tile)" stroke="${t.amber}" stroke-opacity=".45"/>
 <g transform="translate(66 99)"><svg width="60" height="60" viewBox="0 0 64 64" fill="none"><path d="M44 18c-3-4-8-6-13-6-8 0-13 4-13 10 0 14 28 6 28 21 0 6-6 11-15 11-6 0-12-2-16-7" stroke="url(#g)" stroke-width="6" stroke-linecap="round"/></svg></g></g>
 <text x="184" y="103" font-size="52" font-weight="700" letter-spacing="-1.5" fill="${t.ink}">Hossein Salehi</text>
 <text class="m" x="186" y="130" font-size="15" fill="${t.mute}">@Ssizy</text>
