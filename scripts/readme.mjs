@@ -31,7 +31,7 @@ ${pic("stack", "Stack: TypeScript, JavaScript, React, Astro, Tailwind; Node.js, 
 
 ${pic("h-featured", "Featured", 'width="100%"')}
 
-${ROWS.map((row) => "<p>\n" + row.map(([id, , alt, pub]) => link(pub ? REPO(id) : "", pic(`card-${id}`, alt, 'width="49%"'))).join("\n") + "\n</p>").join("\n\n")}
+${ROWS.map((row) => "<p>\n" + row.map(([id, , alt, pub]) => link(pub ? REPO(id) : "", pic(`card-${id}`, alt, 'width="50%"'))).join("") + "\n</p>").join("\n\n")}
 
 <p>${pic("card-shaneh", "Shaneh · Nextcloud stack (private): Persian RTL product site and a self-hosted Nextcloud fork for schools and companies.", 'width="100%"')}</p>
 

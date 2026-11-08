@@ -14,13 +14,11 @@
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/h-featured-dark.svg"><img src="assets/h-featured-light.svg" alt="Featured" width="100%"></picture>
 
 <p>
-<a href="https://github.com/Ssizyyy/portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-portfolio-dark.svg"><img src="assets/card-portfolio-light.svg" alt="Developer portfolio site" width="49%"></picture></a>
-<a href="https://github.com/Ssizyyy/claude-plugins"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-claude-plugins-dark.svg"><img src="assets/card-claude-plugins-light.svg" alt="Claude Code plugin marketplace" width="49%"></picture></a>
+<a href="https://github.com/Ssizyyy/portfolio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-portfolio-dark.svg"><img src="assets/card-portfolio-light.svg" alt="Developer portfolio site" width="50%"></picture></a><a href="https://github.com/Ssizyyy/claude-plugins"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-claude-plugins-dark.svg"><img src="assets/card-claude-plugins-light.svg" alt="Claude Code plugin marketplace" width="50%"></picture></a>
 </p>
 
 <p>
-<a href="https://github.com/Ssizyyy/g69-config"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-g69-config-dark.svg"><img src="assets/card-g69-config-light.svg" alt="Offline Windows configurator for the Onikuma G69 keyboard" width="49%"></picture></a>
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-claude-kit-manager-dark.svg"><img src="assets/card-claude-kit-manager-light.svg" alt="Local dashboard for Claude Code setup (private)" width="49%"></picture>
+<a href="https://github.com/Ssizyyy/g69-config"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-g69-config-dark.svg"><img src="assets/card-g69-config-light.svg" alt="Offline Windows configurator for the Onikuma G69 keyboard" width="50%"></picture></a><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-claude-kit-manager-dark.svg"><img src="assets/card-claude-kit-manager-light.svg" alt="Local dashboard for Claude Code setup (private)" width="50%"></picture>
 </p>
 
 <p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-shaneh-dark.svg"><img src="assets/card-shaneh-light.svg" alt="Shaneh · Nextcloud stack (private): Persian RTL product site and a self-hosted Nextcloud fork for schools and companies." width="100%"></picture></p>
