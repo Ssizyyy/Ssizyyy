@@ -1,5 +1,6 @@
 // Writes README.md from the asset names. Run: node scripts/readme.mjs
-import { writeFileSync } from "node:fs";
+import { writeFileSync, readFileSync } from "node:fs";
+const pct = (id) => (readFileSync(new URL(`../assets/btn-${id}-dark.svg`, import.meta.url), "utf8").match(/width="(\d+)"/)[1] / 880 * 100).toFixed(2) + "%";
 
 const pic = (name, alt, attrs = "") =>
   `<picture><source media="(prefers-color-scheme: dark)" srcset="assets/${name}-dark.svg"><img src="assets/${name}-light.svg" alt="${alt}" ${attrs}></picture>`;
@@ -21,7 +22,7 @@ const ROWS = [
 const md = `<p>${pic("hero", "Hossein Salehi, @Ssizy. I turn rough ideas into shipped products: sites, desktop tools and everything between. Open for freelance work, UTC+3:30.", 'width="100%"')}</p>
 
 <p>
-${BTN.map(([id, label]) => link(LINKS[id], pic(`btn-${id}`, label))).join("\n")}
+${BTN.map(([id, label]) => link(LINKS[id], pic(`btn-${id}`, label, `width="${pct(id)}"`))).join("\n")}
 </p>
 
 ${pic("h-stack", "Stack", 'width="100%"')}
@@ -30,7 +31,7 @@ ${pic("stack", "Stack: TypeScript, JavaScript, React, Astro, Tailwind; Node.js, 
 
 ${pic("h-featured", "Featured", 'width="100%"')}
 
-${ROWS.map((row) => "<p>\n" + row.map(([id, , alt, pub]) => link(pub ? REPO(id) : "", pic(`card-${id}`, alt, 'width="49.5%"'))).join("\n") + "\n</p>").join("\n\n")}
+${ROWS.map((row) => "<p>\n" + row.map(([id, , alt, pub]) => link(pub ? REPO(id) : "", pic(`card-${id}`, alt, 'width="49%"'))).join("\n") + "\n</p>").join("\n\n")}
 
 <p>${pic("card-shaneh", "Shaneh · Nextcloud stack (private): Persian RTL product site and a self-hosted Nextcloud fork for schools and companies.", 'width="100%"')}</p>
 
