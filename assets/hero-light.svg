@@ -14,7 +14,6 @@
 <text class="m" x="186" y="130" font-size="15" fill="#59636e">@Ssizy</text>
 <text x="185" y="164" font-size="18" fill="#1f2328">I turn rough ideas into shipped products:</text>
 <text x="185" y="187" font-size="18" fill="#1f2328">sites, desktop tools and everything between.</text>
-<text class="m" x="185" y="219" font-size="13" fill="#59636e">Front-end &amp; full-stack · Astro · React · TypeScript</text>
 <rect x="620.5" y="62.5" width="219" height="49" rx="14" fill="rgba(0,0,0,.03)" stroke="rgba(0,0,0,.12)"/><circle cx="642" cy="87" r="4" fill="#8f5200"/><text x="658" y="92" font-size="14" fill="#1f2328">Open for freelance work</text>
 <rect x="620.5" y="124.5" width="219" height="61" rx="14" fill="rgba(0,0,0,.03)" stroke="rgba(0,0,0,.12)"/><text x="642" y="150" font-size="14" fill="#1f2328">Working hours</text><text class="m" x="642" y="171" font-size="12" fill="#59636e">UTC+3:30</text>
 </svg>

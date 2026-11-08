@@ -41,7 +41,6 @@ function hero(t) {
 <text class="m" x="186" y="130" font-size="15" fill="${t.mute}">@Ssizy</text>
 <text x="185" y="164" font-size="18" fill="${t.ink}">I turn rough ideas into shipped products:</text>
 <text x="185" y="187" font-size="18" fill="${t.ink}">sites, desktop tools and everything between.</text>
-<text class="m" x="185" y="219" font-size="13" fill="${t.mute}">Front-end &amp; full-stack · Astro · React · TypeScript</text>
 ${chip(62, 50)}<circle cx="642" cy="87" r="4" fill="${t.amber}"/><text x="658" y="92" font-size="14" fill="${t.ink}">Open for freelance work</text>
 ${chip(124, 62)}<text x="642" y="150" font-size="14" fill="${t.ink}">Working hours</text><text class="m" x="642" y="171" font-size="12" fill="${t.mute}">UTC+3:30</text>`;
   const css = `@keyframes d{from{transform:translateY(0)}to{transform:translateY(-6px)}}.dr{animation:d 9s ease-in-out infinite alternate}@media (prefers-reduced-motion:reduce){.dr{animation:none}}`;
